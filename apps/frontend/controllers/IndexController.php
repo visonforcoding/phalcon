@@ -1,16 +1,29 @@
 <?php
 
 namespace Multiple\Frontend\Controllers;
+//use Phalcon\Logger\Adapter\File as FileAdapter;
 
-class IndexController extends \Phalcon\Mvc\Controller
-{
+class IndexController extends \Phalcon\Mvc\Controller {
 
-	public function indexAction()
-	{
-               $products = \Multiple\Frontend\Models\Products::find();
-               $this->view->setVars(array(
-                   'title'=>$products
-               ));
-	}
+    public function indexAction() {
+        $this->session->set('name', 'cwp');
+        var_dump($this->session->get('name'));
+        $products = \Multiple\Frontend\Models\Products::findFirst();
+        var_dump($products->name);
+        exit();
+//        $this->response->redirect('http://www.baidu.com');
+//        exit();
+//        $this->log->log("日志注入测试");
+//        $log = \Phalcon\DI::getDefault()->getLogger();
+//         $log->log('日志注入测试');
+//        $logger = new FileAdapter("../apps/log/test.log");
+//        $logger->log("This is a message");
+//        $logger->log("This is an error", \Phalcon\Logger::ERROR);
+//        $logger->error("This is another error");
+
+        $this->view->setVars(array(
+            'title' => 'test'
+        ));
+    }
 
 }

@@ -3,26 +3,27 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/www/multiple/public/index.php</file>
-            <file>file:/E:/www/multiple/apps/backend/Module.php</file>
-            <file>file:/E:/www/multiple/apps/library/Acl.php</file>
-            <file>file:/E:/www/multiple/apps/frontend/Module.php</file>
-            <file>file:/E:/www/multiple/apps/frontend/controllers/IndexController.php</file>
             <file>file:/E:/www/multiple/apps/frontend/views/products/index.phtml</file>
+            <file>file:/E:/www/multiple/apps/backend/Module.php</file>
+            <file>file:/E:/www/multiple/apps/frontend/views/layout/layout.volt</file>
+            <file>file:/E:/www/multiple/apps/frontend/controllers/IndexController.php</file>
             <file>file:/E:/www/multiple/apps/frontend/controllers/ProductsController.php</file>
             <file>file:/E:/www/multiple/apps/backend/controllers/ProductsController.php</file>
-            <file>file:/E:/www/multiple/apps/backend/controllers/LoginController.php</file>
             <file>file:/E:/www/multiple/apps/backend/controllers/UserController.php</file>
-            <file>file:/E:/www/multiple/apps/backend/controllers/IndexController.php</file>
             <file>file:/E:/www/multiple/.htaccess</file>
-            <file>file:/E:/www/multiple/apps/frontend/models/Products.php</file>
-            <file>file:/E:/www/multiple/apps/config/loader.php</file>
-            <file>file:/E:/www/multiple/apps/config/config.ini</file>
-            <file>file:/E:/www/multiple/apps/frontend/controllers/UsersController.php</file>
             <file>file:/E:/www/multiple/apps/config/services.php</file>
+            <file>file:/E:/www/multiple/apps/backend/controllers/IndexController.php</file>
             <file>file:/E:/www/multiple/apps/frontend/views/index/index.phtml</file>
+            <file>file:/E:/www/multiple/apps/backend/controllers/LoginController.php</file>
+            <file>file:/E:/www/multiple/public/index.php</file>
+            <file>file:/E:/www/multiple/apps/library/Acl.php</file>
+            <file>file:/E:/www/multiple/apps/frontend/models/Products.php</file>
             <file>file:/E:/www/multiple/apps/frontend/views/index/index.volt</file>
-            <file>file:/E:/www/multiple/apps/frontend/views/layout/layout.volt</file>
+            <file>file:/E:/www/multiple/apps/logs/2015_03_10.log</file>
+            <file>file:/E:/www/multiple/apps/config/config.ini</file>
+            <file>file:/E:/www/multiple/apps/frontend/Module.php</file>
+            <file>file:/E:/www/multiple/apps/config/loader.php</file>
+            <file>file:/E:/www/multiple/apps/frontend/controllers/UsersController.php</file>
         </group>
     </open-files>
 </project-private>

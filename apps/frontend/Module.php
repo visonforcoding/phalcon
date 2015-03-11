@@ -30,11 +30,14 @@ class Module {
             //Attach a event listener to the dispatcher
             $eventManager = new \Phalcon\Events\Manager();
             $eventManager->attach('dispatch', new \Acl('frontend'));
+            $eventManager->attach('dispatch:beforeException', new \NotFoundPlugin());
 
             $dispatcher->setEventsManager($eventManager);
             $dispatcher->setDefaultNamespace("Multiple\Frontend\Controllers\\");
             return $dispatcher;
         });
+
+
 
         //Registering the view component
         $di->set('view', function () {
