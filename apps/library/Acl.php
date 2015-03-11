@@ -14,15 +14,15 @@ class Acl extends \Phalcon\Mvc\User\Component {
 
     public function beforeExecuteRoute(Event $event, Dispatcher $dispatcher) {
 
-        $login = $this->session->has('name');
-        if($dispatcher->getControllerName()!='errors'){
-            if (!$login) {
-                $dispatcher->forward(array(
-                    'controller' => 'errors',
-                    'action' => 'show401'
-                ));
-            }
-        }
+//        $login = $this->session->has('name');
+//        if($dispatcher->getControllerName()!='errors'){
+//            if (!$login) {
+//                $dispatcher->forward(array(
+//                    'controller' => 'errors',
+//                    'action' => 'show401'
+//                ));
+//            }
+//        }
 
        // echo $resource = $this->_module . '-' . $dispatcher->getControllerName(), PHP_EOL; // frontend-dashboard
        // echo $access = $dispatcher->getActionName(); // null
