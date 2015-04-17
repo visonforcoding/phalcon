@@ -8,9 +8,10 @@ $loader->registerNamespaces(
         array(
             "Plugins" => APP_PATH . 'apps/plugins',
             "Models" => APP_PATH . 'apps/models',
+            'Snowair\Debugbar' => APP_PATH.'vendor/snowair/phalcon-debugbar/src',  
         )
 );
-
+$loader->register();
 /**
  * We're a registering a set of directories taken from the configuration file
  */

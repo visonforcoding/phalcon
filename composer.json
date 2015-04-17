@@ -1,0 +1,5 @@
+{
+    "require-dev": {
+        "snowair/phalcon-debugbar": "~1.0"
+    }
+}

@@ -7,9 +7,7 @@ class IndexController extends \Phalcon\Mvc\Controller {
 
     public function indexAction() {
         $this->session->set('name', 'cwp');
-        var_dump($this->session->get('name'));
         $products = \Multiple\Frontend\Models\Products::findFirst();
-        var_dump($products->name);
         $this->flash->success('恭喜你，安装成功！');
 //        $this->response->redirect('http://www.baidu.com');
 //        exit();
